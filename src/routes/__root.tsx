@@ -77,14 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Muse — AI Productivity Assistant" },
+      {
+        name: "description",
+        content:
+          "Draft emails, summarize meetings, and plan your day with an AI productivity assistant.",
+      },
+      { property: "og:title", content: "Muse — AI Productivity Assistant" },
+      {
+        property: "og:description",
+        content: "Emails, meeting notes, and smart schedules — powered by AI.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
