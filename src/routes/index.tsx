@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Muse — AI Productivity Assistant" },
       {
         property: "og:description",
-        content: "Emails, meeting notes, and smart schedules — powered by AI.",
+        content: "Draft emails, summarize meetings, and plan your day with an AI productivity assistant.",
       },
     ],
   }),

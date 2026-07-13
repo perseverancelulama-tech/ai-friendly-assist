@@ -86,10 +86,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Muse — AI Productivity Assistant" },
       {
         property: "og:description",
-        content: "Emails, meeting notes, and smart schedules — powered by AI.",
+        content: "Draft emails, summarize meetings, and plan your day with an AI productivity assistant.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Muse — AI Productivity Assistant" },
+      { name: "twitter:description", content: "Draft emails, summarize meetings, and plan your day with an AI productivity assistant." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/db44f762-0909-4fb9-af63-019044c4af91/id-preview-841653a3--745e6eed-092c-4f44-97a4-80326eb103bf.lovable.app-1783945341344.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/db44f762-0909-4fb9-af63-019044c4af91/id-preview-841653a3--745e6eed-092c-4f44-97a4-80326eb103bf.lovable.app-1783945341344.png" },
     ],
     links: [
       {
